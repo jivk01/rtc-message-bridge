@@ -1,0 +1,25 @@
+{
+  "name": "rtc-message-bridge",
+  "version": "0.0.1",
+  "description": "service that allows to send messages and files over the WebRTC",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm run dev:client",
+    "dev:client": "cd client && npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jivk01/rtc-message-bridge.git"
+  },
+  "keywords": [
+    "WebRTC",
+    "messages",
+    "rooms"
+  ],
+  "author": "Jivk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jivk01/rtc-message-bridge/issues"
+  },
+  "homepage": "https://github.com/jivk01/rtc-message-bridge#readme"
+}
