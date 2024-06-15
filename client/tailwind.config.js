@@ -11,6 +11,9 @@ export default {
         'main-hover': '#6DEDFF',
         'main-active': '#4BDAEE',
         secondary: '#8FB3E8'
+      },
+      screens: {
+        'smrotated': {raw: '(max-height: 520px) and (orientation: landscape)'}
       }
     },
   },
