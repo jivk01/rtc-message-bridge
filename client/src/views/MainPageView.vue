@@ -1,6 +1,8 @@
 <script setup lang="ts">
+import { useRouter } from 'vue-router'
 import ButtonComponent from '../components/ButtonComponent.vue'
-import { ref } from 'vue'
+
+const router = useRouter()
 </script>
 
 <template>
@@ -13,7 +15,7 @@ import { ref } from 'vue'
         without the need for registration
       </p>
       <div class="flex justify-center mt-10">
-        <ButtonComponent :text="'Start now'" :active="true" class="w-48 md:w-60" />
+        <ButtonComponent :text="'Start now'" class="w-48 md:w-60" @click="$router.push('select-room')" />
       </div>
     </div>
   </main>

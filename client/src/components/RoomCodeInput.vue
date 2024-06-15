@@ -43,8 +43,8 @@ function moveRight(index: number) {
 
 <template>
   <div class="flex flex-col items-center">
-    <h2 class="text-3xl md:text-4xl">Join the existing room</h2>
-    <h3 class="text-2xl md:text-3xl mt-6">Enter the room code here:</h3>
+    <h2 class="text-3xl md:text-4xl text-center">Join the existing room</h2>
+    <h3 class="text-2xl md:text-3xl text-center mt-6">Enter the room code here:</h3>
     <div class="flex space-x-3 mt-3" id="room-code-container">
       <input type="text" v-for="_, index in chars" :key="index" class="w-9 h-12 text-2xl md:w-12 md:h-16 md:text-3xl text-center border-2 border-main rounded-lg 
         transition-all duration-800 caret-transparent focus:outline-none focus:shadow-md" v-model="chars[index]"
