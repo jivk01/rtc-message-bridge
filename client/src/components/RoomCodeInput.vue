@@ -5,10 +5,7 @@ const emits = defineEmits<{
   join: [code: string]
 }>()
 
-const chars: string[] = reactive([])
-for (let i = 0; i < 6; i++) {
-  chars.push('')
-}
+const chars: string[] = reactive(['', '', '', '', '', ''])
 
 function handleInput(event: KeyboardEvent, index: number) {
   event.preventDefault()

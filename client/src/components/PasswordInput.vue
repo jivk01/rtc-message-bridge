@@ -11,7 +11,7 @@ const model = defineModel()
 <template>
   <div class="min-w-72 min-h-10">
     <input type="password"
-      class="w-full h-full border-2 p-2.5 border-main rounded-md focus:outline-none focus:shadow-md" :placeholder
+      class="w-full h-full border-2 p-2.5 border-main rounded-md focus:outline-none focus:shadow-md text-base md:text-lg" :placeholder
       v-model="model">
   </div>
 </template>
