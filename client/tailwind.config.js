@@ -2,7 +2,20 @@
 export default {
   content: ['./index.html', './src/**/*.{vue,ts,tsx}'],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        lexend: ['Lexend', 'sans-serif']
+      },
+      colors: {
+        main: '#5BE9FD',
+        'main-hover': '#6DEDFF',
+        'main-active': '#4BDAEE',
+        secondary: '#8FB3E8'
+      },
+      screens: {
+        'smrotated': {raw: '(max-height: 520px) and (orientation: landscape)'}
+      }
+    },
   },
   plugins: [],
 }
